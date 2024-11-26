@@ -16,7 +16,8 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': {
-      prerender: true,
+      //prerender: true,
+      redirect: 'https://recaptime.dev/about/golinks'
     },
     '/dashboard/**': {
       ssr: false,
@@ -66,5 +67,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-07-08',
+  compatibilityDate: '2024-11-26',
 })
